@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+  <link rel="stylesheet" href="design4.css">
+    </head>
+<body class="style">
+  <div id="slider">
+    <figure>  
+      <img alt="Boys playing with a ball" class="slider-img" src="image6.jpg">
+      <img alt="Kids run on the pitch" class="slider-img" src="image3.jpg">
+      <img alt="Football field" class="slider-img" src="image5.jpg">
+      <img alt="Freekick" class="slider-img" src="image4.jpg">
+      <img alt="Little boy kicking the ball" class="slider-img" src="image1.jpg">
+    </figure>  
+     </div>
+  <div>
+    <img alt="green background" class="green-img size4" src="4cbb17.png">
+     </div>
+  <div>
+    <h2 class="sub-title">Registration Form</h2>
+    <div> 
+      <img alt="nysl logo" class="logo" src="nysl_logo.png">
+       </div>    
+    </div>
+  <div>
+    <div class="buttons">
+      <a class="button-color" href="home4.html">Home</a>
+      <a class="button-color" href="about4.html">About</a>
+      <a class="button-color" href="contact4.html">Contact</a>
+      <a class="button-color" href="rules4.html">Rules</a>
+      <a class="button-color" href="info4.html">Information</a>
+      <a>Registration</a>    
+        </div>
+    <form action="show_data.html" method="get">
+      <div class="personal-info">
+        <div>
+          <p>First name: <input class="info-box1" type="text" name="First Name" required></p>
+          <p>Street Address: <input class="info-box2" type="text" name="Address" required></p> 
+          <p>City: <input class="info-box3" type="text" name="City"required></p> 
+          <p>Birth Date (mm/dd/yy): <input class="info-box4" type="text" name="Birth Date" required></p> 
+          <p>Grade:</p><div class="checkbox"><input type="radio" name="Grade" value="pre" required> Pre-School
+            <input type="radio" name="Grade" value="1st" required> 1st
+            <input type="radio" name="Grade" value="2nd" required> 2nd
+            <input type="radio" name="Grade" value="3rd" required> 3rd
+            <input type="radio" name="Grade" value="4th" required> 4th
+            <input type="radio" name="Grade" value="5th" required> 5th </div>
+          <p>Parent/Guardian: <input class="info-box5" type="text" name="Parent Guardian" required></p> <p>Contact Phone: <input class="info-box6" type="text" name="Phone" required></p>
+            </div>
+        <div class="container-info">
+          <p>Last name: <input class="info-box7" type="text" name="Last Name" required></p>
+          <p>Zip Code: <input class="info-box8" type="text" name="Zip Code" required></p>
+            <div class="gender-field">      
+             <p>Gender:</p>
+                <div>
+                  <input type="radio" name="Gender" value="female" required> Female
+                  <input type="radio" name="Gender" value="male" required> Male</div>
+              </div> 
+            <div class="email-field">    
+              <p>Contact E-mail: <input type="text" name="E-mail" required></p></div>
+               </div>
+           </div>
+      <div class="school-info">
+        <h4>Which elementary schools do you live near?</h4>
+        <div>First Closest School: 
+          <select  name="School 1" required>
+           <option value="select" >Select</option>    
+           <option value="AJ Katzenmaier">AJ Katzenmaier Elementary</option>
+           <option value="Greenbay">Greenbay Elementary</option>
+           <option value="Howard A Yeager">Howard A Yeager Elementary</option>
+           <option value="Marjorie P Hart">Marjorie P Hart Elementary</option>
+           <option value="North">North Elementary	</option>
+           <option value="South">South Elementary</option>   
+             </select>
+          </div>
+        <div class="container-school">Second Closest School:
+          <select name="School 2" required>
+           <option value="select" selected>Select</option>
+           <option value="AJ Katzenmaier">AJ Katzenmaier Elementary</option>
+           <option value="Greenbay">Greenbay Elementary</option>
+           <option value="Howard A Yeager">Howard A Yeager Elementary</option>
+           <option value="Marjorie P Hart">Marjorie P Hart Elementary</option>
+           <option value="North">North Elementary	</option>
+           <option value="South">South Elementary</option>   
+             </select>
+            </div>
+           </div>
+      <div class="position-field1">
+        <h4>What position(s) do you normally play? (check all that apply)</h4>
+        <div class="container-position">
+          <div class="checkbox"><input type="checkbox" name="Position" value="forward" required> Forward
+            <input type="checkbox" name="Position" value="defense" required> Defense
+             </div>
+         </div>
+        <div>
+          <div class="checkbox"><input type="checkbox" name="Position" value="midfield" required> Midfield
+            <input type="checkbox" name="Position" value="goalkeeper" required> Goalkeeper
+             </div>
+         </div>
+        </div>
+      <div class="position-field2">
+        <h4>What position(s) do you want to play? (check all that apply)</h4>
+        <div class="container-position2">
+          <div class="checkbox"><input type="checkbox" name="Position-want" value="forward" required> Forward
+            <input type="checkbox" name="Position-want" value="defense" required> Defense
+             </div>
+         </div>
+        <div>
+          <div class="checkbox"><input type="checkbox" name="Position-want" value="midfield" required> Midfield
+            <input type="checkbox" name="Position-want" value="goalkeeper" required> Goalkeeper
+             </div>
+         </div>
+        </div> 
+      <div class="uniform-field">
+        <div><h4>Already Have a Uniform</h4></div>
+        <div class="container-uniform"><input type="radio" name="Uniform" value="Have" required></div>
+       </div>
+      <div class="size-field">
+        <div class="container-jsize">Jersey Size: 
+          <select class="select" name="Jersey Size" required>
+            <option value="select" selected>Select</option>   
+            <option value="youth small">Youth Small</option>
+            <option value="youth medium">Youth Medium</option>
+            <option value="youth large">Youth Large</option>
+            <option value="small">Smalls</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option> 
+            <option value="extra large">Extra-Large</option>  
+             </select>
+            </div>
+        <div class="container-ssize">Short Size:
+          <select name="Short Size" required>
+            <option value="select" selected>Select</option>   
+            <option value="youth small">Youth Small</option>
+            <option value="youth medium">Youth Medium</option>
+            <option value="youth large">Youth Large</option>
+            <option value="small">Smalls</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option> 
+            <option value="extra large">Extra-Large</option>  
+              </select>
+             </div>
+       </div>
+      <div class="permission">
+        <h4>Permission to Play</h4>
+        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel and volunteers, i including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL sponsored activities, which transportation.</p>
+        <p>By entering your name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms. </p>
+       </div>
+      <div class="permission-field">
+        <div>
+          <a>Name :</a> <input type="text" name="Signature" required>
+         </div>
+        <div>
+          <div class="container-date">
+            <a class="box">Date (mm/dd/yy/) :</a> <input type="text" name="Date" required> 
+           </div>
+         </div>
+       </div>
+      <input class="submit-btn" type="submit" value="Submit"> 
+     </form>
+    </div>
+</body>    
+</html>

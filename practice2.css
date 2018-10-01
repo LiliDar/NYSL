@@ -1,0 +1,152 @@
+.body-style {
+    background-color: darkseagreen;
+}
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50%;
+}
+.nysl-logo {
+    flex: 1;
+    position: relative;
+    margin-top: -14%;
+    left: -3%;
+    width: 40%;
+    z-index: 10;
+    }
+.slider {
+    flex: 1;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+}
+.sub-title {
+    flex: 1;
+    position: relative;
+    text-align: center;
+    background-color: dimgrey;
+    color: aliceblue;
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    z-index: 1;
+    width: 100%;
+}
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+}
+.green-img {
+    flex: 1;
+    position: absolute;
+    left: 5%;
+    bottom: -13%;
+    height: 650px;
+    width: 15%;
+    z-index: 1;
+}
+.buttons {
+    flex: 1;
+    flex-direction: row;
+    line-height: 2;
+    z-index: 9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    font-weight: bolder;
+    color: aliceblue;
+    position: absolute;
+    width: 10%;
+}
+.color {
+    color: gainsboro;
+}
+.flex-container3 {
+    
+}
+.main-text {
+    position: absolute;
+    left: 20%;
+    bottom: -2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    z-index: 1;
+}
+.calendar {
+    position: absolute;
+    width: 20%;
+    left: 70%;
+    top: 62%
+}
+
+
+
+@keyframes slider {
+    
+    0% {
+        left: 0;
+    }
+    
+    20% {
+        left: 0;
+    }
+    
+    25% {
+        left: -100%;
+    }
+    
+    45% {
+        left: -100%;
+    }
+    
+    50% {
+        left: -200%;
+    }
+    
+    70% {
+        left: -200%;
+    }
+    
+    75% {
+        left: -300%;
+    }
+    
+    95% {
+        left: -300%;
+    }
+    
+    100% {
+        left: -400%;
+    }
+    
+    }
+    
+    #slider {
+        overflow: hidden;
+    }
+    
+    #slider figure img {
+        width: 20%;  
+        float: left;
+    }
+    
+    #slider figure {
+        position: relative;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        text-align: left;
+        font-size: 0;
+        animation: 20s slider infinite;
+        z-index: 1;
+    }
+
+
+
+
+
+
+
+
+
+
